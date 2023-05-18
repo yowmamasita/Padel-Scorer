@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3372CC3B2A1680C700FE0EEB /* Padel Scorer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3372CC3A2A1680C700FE0EEB /* Padel Scorer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3372CC402A1680C700FE0EEB /* Padel_ScorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372CC3F2A1680C700FE0EEB /* Padel_ScorerApp.swift */; };
+		3372CC422A1680C700FE0EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372CC412A1680C700FE0EEB /* ContentView.swift */; };
+		3372CC442A1680C700FE0EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3372CC432A1680C700FE0EEB /* Assets.xcassets */; };
+		3372CC472A1680C700FE0EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3372CC462A1680C700FE0EEB /* Preview Assets.xcassets */; };
+		3372CC512A1680C800FE0EEB /* Padel_Scorer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372CC502A1680C800FE0EEB /* Padel_Scorer_Watch_AppTests.swift */; };
+		3372CC5B2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372CC5A2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITests.swift */; };
+		3372CC5D2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372CC5C2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3372CC3C2A1680C700FE0EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3372CC2E2A1680C600FE0EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3372CC392A1680C700FE0EEB;
+			remoteInfo = "Padel Scorer Watch App";
+		};
+		3372CC4D2A1680C800FE0EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3372CC2E2A1680C600FE0EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3372CC392A1680C700FE0EEB;
+			remoteInfo = "Padel Scorer Watch App";
+		};
+		3372CC572A1680C800FE0EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3372CC2E2A1680C600FE0EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3372CC392A1680C700FE0EEB;
+			remoteInfo = "Padel Scorer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3372CC632A1680C800FE0EEB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3372CC3B2A1680C700FE0EEB /* Padel Scorer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3372CC342A1680C700FE0EEB /* Padel Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Padel Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3372CC3A2A1680C700FE0EEB /* Padel Scorer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Padel Scorer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3372CC3F2A1680C700FE0EEB /* Padel_ScorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padel_ScorerApp.swift; sourceTree = "<group>"; };
+		3372CC412A1680C700FE0EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3372CC432A1680C700FE0EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3372CC462A1680C700FE0EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3372CC4C2A1680C700FE0EEB /* Padel Scorer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Padel Scorer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3372CC502A1680C800FE0EEB /* Padel_Scorer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padel_Scorer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3372CC562A1680C800FE0EEB /* Padel Scorer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Padel Scorer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3372CC5A2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padel_Scorer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3372CC5C2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padel_Scorer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3372CC372A1680C700FE0EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC492A1680C700FE0EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC532A1680C800FE0EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3372CC2D2A1680C600FE0EEB = {
+			isa = PBXGroup;
+			children = (
+				3372CC3E2A1680C700FE0EEB /* Padel Scorer Watch App */,
+				3372CC4F2A1680C800FE0EEB /* Padel Scorer Watch AppTests */,
+				3372CC592A1680C800FE0EEB /* Padel Scorer Watch AppUITests */,
+				3372CC352A1680C700FE0EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3372CC352A1680C700FE0EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3372CC342A1680C700FE0EEB /* Padel Scorer.app */,
+				3372CC3A2A1680C700FE0EEB /* Padel Scorer Watch App.app */,
+				3372CC4C2A1680C700FE0EEB /* Padel Scorer Watch AppTests.xctest */,
+				3372CC562A1680C800FE0EEB /* Padel Scorer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3372CC3E2A1680C700FE0EEB /* Padel Scorer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3372CC3F2A1680C700FE0EEB /* Padel_ScorerApp.swift */,
+				3372CC412A1680C700FE0EEB /* ContentView.swift */,
+				3372CC432A1680C700FE0EEB /* Assets.xcassets */,
+				3372CC452A1680C700FE0EEB /* Preview Content */,
+			);
+			path = "Padel Scorer Watch App";
+			sourceTree = "<group>";
+		};
+		3372CC452A1680C700FE0EEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3372CC462A1680C700FE0EEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3372CC4F2A1680C800FE0EEB /* Padel Scorer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3372CC502A1680C800FE0EEB /* Padel_Scorer_Watch_AppTests.swift */,
+			);
+			path = "Padel Scorer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3372CC592A1680C800FE0EEB /* Padel Scorer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3372CC5A2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITests.swift */,
+				3372CC5C2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Padel Scorer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3372CC332A1680C600FE0EEB /* Padel Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3372CC642A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer" */;
+			buildPhases = (
+				3372CC322A1680C600FE0EEB /* Resources */,
+				3372CC632A1680C800FE0EEB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3372CC3D2A1680C700FE0EEB /* PBXTargetDependency */,
+			);
+			name = "Padel Scorer";
+			productName = "Padel Scorer";
+			productReference = 3372CC342A1680C700FE0EEB /* Padel Scorer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3372CC392A1680C700FE0EEB /* Padel Scorer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3372CC602A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer Watch App" */;
+			buildPhases = (
+				3372CC362A1680C700FE0EEB /* Sources */,
+				3372CC372A1680C700FE0EEB /* Frameworks */,
+				3372CC382A1680C700FE0EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Padel Scorer Watch App";
+			productName = "Padel Scorer Watch App";
+			productReference = 3372CC3A2A1680C700FE0EEB /* Padel Scorer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3372CC4B2A1680C700FE0EEB /* Padel Scorer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3372CC672A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer Watch AppTests" */;
+			buildPhases = (
+				3372CC482A1680C700FE0EEB /* Sources */,
+				3372CC492A1680C700FE0EEB /* Frameworks */,
+				3372CC4A2A1680C700FE0EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3372CC4E2A1680C800FE0EEB /* PBXTargetDependency */,
+			);
+			name = "Padel Scorer Watch AppTests";
+			productName = "Padel Scorer Watch AppTests";
+			productReference = 3372CC4C2A1680C700FE0EEB /* Padel Scorer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3372CC552A1680C800FE0EEB /* Padel Scorer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3372CC6A2A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer Watch AppUITests" */;
+			buildPhases = (
+				3372CC522A1680C800FE0EEB /* Sources */,
+				3372CC532A1680C800FE0EEB /* Frameworks */,
+				3372CC542A1680C800FE0EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3372CC582A1680C800FE0EEB /* PBXTargetDependency */,
+			);
+			name = "Padel Scorer Watch AppUITests";
+			productName = "Padel Scorer Watch AppUITests";
+			productReference = 3372CC562A1680C800FE0EEB /* Padel Scorer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3372CC2E2A1680C600FE0EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3372CC332A1680C600FE0EEB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3372CC392A1680C700FE0EEB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3372CC4B2A1680C700FE0EEB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3372CC392A1680C700FE0EEB;
+					};
+					3372CC552A1680C800FE0EEB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3372CC392A1680C700FE0EEB;
+					};
+				};
+			};
+			buildConfigurationList = 3372CC312A1680C600FE0EEB /* Build configuration list for PBXProject "Padel Scorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3372CC2D2A1680C600FE0EEB;
+			productRefGroup = 3372CC352A1680C700FE0EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3372CC332A1680C600FE0EEB /* Padel Scorer */,
+				3372CC392A1680C700FE0EEB /* Padel Scorer Watch App */,
+				3372CC4B2A1680C700FE0EEB /* Padel Scorer Watch AppTests */,
+				3372CC552A1680C800FE0EEB /* Padel Scorer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3372CC322A1680C600FE0EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC382A1680C700FE0EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3372CC472A1680C700FE0EEB /* Preview Assets.xcassets in Resources */,
+				3372CC442A1680C700FE0EEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC4A2A1680C700FE0EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC542A1680C800FE0EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3372CC362A1680C700FE0EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3372CC422A1680C700FE0EEB /* ContentView.swift in Sources */,
+				3372CC402A1680C700FE0EEB /* Padel_ScorerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC482A1680C700FE0EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3372CC512A1680C800FE0EEB /* Padel_Scorer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3372CC522A1680C800FE0EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3372CC5B2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITests.swift in Sources */,
+				3372CC5D2A1680C800FE0EEB /* Padel_Scorer_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3372CC3D2A1680C700FE0EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3372CC392A1680C700FE0EEB /* Padel Scorer Watch App */;
+			targetProxy = 3372CC3C2A1680C700FE0EEB /* PBXContainerItemProxy */;
+		};
+		3372CC4E2A1680C800FE0EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3372CC392A1680C700FE0EEB /* Padel Scorer Watch App */;
+			targetProxy = 3372CC4D2A1680C800FE0EEB /* PBXContainerItemProxy */;
+		};
+		3372CC582A1680C800FE0EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3372CC392A1680C700FE0EEB /* Padel Scorer Watch App */;
+			targetProxy = 3372CC572A1680C800FE0EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3372CC5E2A1680C800FE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3372CC5F2A1680C800FE0EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3372CC612A1680C800FE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Padel Scorer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Padel Scorer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3372CC622A1680C800FE0EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Padel Scorer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Padel Scorer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3372CC652A1680C800FE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				INFOPLIST_KEY_CFBundleDisplayName = "Padel Scorer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3372CC662A1680C800FE0EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				INFOPLIST_KEY_CFBundleDisplayName = "Padel Scorer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3372CC682A1680C800FE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Padel Scorer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Padel Scorer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3372CC692A1680C800FE0EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Padel Scorer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Padel Scorer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3372CC6B2A1680C800FE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Padel Scorer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3372CC6C2A1680C800FE0EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RX5G7H8DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensarmiento.Padel-Scorer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Padel Scorer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3372CC312A1680C600FE0EEB /* Build configuration list for PBXProject "Padel Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372CC5E2A1680C800FE0EEB /* Debug */,
+				3372CC5F2A1680C800FE0EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3372CC602A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372CC612A1680C800FE0EEB /* Debug */,
+				3372CC622A1680C800FE0EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3372CC642A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372CC652A1680C800FE0EEB /* Debug */,
+				3372CC662A1680C800FE0EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3372CC672A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372CC682A1680C800FE0EEB /* Debug */,
+				3372CC692A1680C800FE0EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3372CC6A2A1680C800FE0EEB /* Build configuration list for PBXNativeTarget "Padel Scorer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372CC6B2A1680C800FE0EEB /* Debug */,
+				3372CC6C2A1680C800FE0EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3372CC2E2A1680C600FE0EEB /* Project object */;
+}

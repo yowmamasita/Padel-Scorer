@@ -46,3 +46,17 @@ public func incrementSetScore(
 	}
 }
 
+public func resetScore(
+	playerGameScore: inout String,
+	oppGameScore: inout String,
+	playerSetScore: inout Int,
+	oppSetScore: inout Int,
+	deuceCount: inout Int
+) {
+	playerGameScore = "💙"
+	oppGameScore = "💙"
+	playerSetScore = 0
+	oppSetScore = 0
+	deuceCount = 1
+}
+

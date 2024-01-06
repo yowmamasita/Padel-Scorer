@@ -70,6 +70,24 @@ struct ContentView: View {
 				}
 				Spacer()
 			}
+			HStack {
+						Spacer()
+						Button(action: {
+							previousScores.append((leftGameScore, rightGameScore, leftSetScore, rightSetScore, deuceCount))
+							resetScore(
+								playerGameScore: &leftSetScore,
+								oppGameScore: &rightSetScore,
+								playerSetScore: &leftGameScore,
+								oppSetScore: &rightGameScore,
+								deuceCount: &deuceCount)
+						}) {
+							Text("RESET")
+								.padding()
+								.foregroundColor(.white)
+								.cornerRadius(8)
+						}
+						Spacer()
+					}
 		}
 		.padding()
 	}
